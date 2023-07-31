@@ -1,0 +1,87 @@
+.text-white {
+    color: hsl(0, 0%, 100%) !important;
+}
+
+.text-pale-blue {
+    color: hsl(221, 100%, 96%) !important;
+}
+
+.text-light-lavender {
+    color: hsl(241, 100%, 89%) !important;
+}
+
+.text-dark-gray-blue {
+    color: hsl(224, 30%, 27%) !important;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk';
+    font-size: 18px;
+}
+
+.fw-500 {
+    font-weight: 500 !important;
+}
+
+.fw-700 {
+    font-weight: 700 !important;
+}
+
+.fw-800 {
+    font-weight: 700 !important;
+}
+
+
+html,
+body {
+    background:hsl(0, 0%, 100%);
+    height: min-content !important;
+    min-height: 100vh !important;
+    width: 100vw;
+}
+
+ul{
+    list-style: none;
+}
+
+.left-panel {
+    background-image:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.score {
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 200px;
+    width: 200px;
+}
+
+.score-adj {
+    font-size: 1.5em
+}
+
+.score-desc {
+    font-size: 0.9em;
+}
+
+.list-group-item:not(:last-child){
+    margin-bottom: 1em;
+}
+
+button {
+    background-image: none;
+    background: hsl(224, 30%, 27%);
+    transition: transform 0.1s linear;
+}
+
+button:hover {
+    background:none;
+    background-image:linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+button:active {
+    transform: scale(0.95);
+}
